@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+}
+
+.navbar {
+  flex: 0 0 200px;
+  width: 200px;
+  min-height: 100vh;
+  background: #dbdfe7;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.main{
+  padding: 10px;
+  flex: 1 1;
+}
+
+.navlink{
+  color: #a53d0d;
+  text-decoration: none;
+  position: relative;
+}
+
+.navlink.active{
+  color: #ff7332;
+}
+
+.box{
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.todo{
+  border: 1px coral solid;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.linkWrapper{
+  position: fixed;
+  flex: 0 0 200px;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.scrollChild{
+  height: 30px;
+  background: greenyellow
+}
+
+.parent{}
