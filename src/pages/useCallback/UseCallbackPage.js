@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from "react"
+import { CallbackChildFour } from "./CallbackChildFour"
 import { CallbackChildOne } from "./CallbackChildOne"
 import { CallbackChildThree } from "./CallbackChildThree"
 import { CallbackChildTwo } from "./CallbackChildTwo"
@@ -34,6 +35,9 @@ export const UseCallbackPage = () => {
     <CallbackChildTwo />
     <hr />
     <CallbackChildThree multiply={multiply} />
+    <hr/>
+    <hr />
+    <CallbackChildFour />
     <hr/>
     <button onClick={()=>{setReset(e=>!e)}}>reset parent component</button>
     </>
